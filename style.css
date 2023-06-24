@@ -10,13 +10,10 @@
 }
 
 .bubble {
-    /* height: max(400px, 30vw);
-    width: max(400px, 30vw); */
+    height: 45vw;
+    width: 45vw;
 
-    height: 50vw;
-    width: 50vw;
-
-    background-color: rgb(33,150, 243);
+    background-color: rgb(48, 151, 254);
     border-radius: 100%;
 
     position: absolute;
