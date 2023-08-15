@@ -5,7 +5,7 @@ const animateBubble = x => {
     bubble.className = "bubble";
     bubble.style.left = `${x}px`;
     wrapper.appendChild(bubble);
-    setTimeout(() => wrapper.removeChild(bubble), 1000);
+    setTimeout(() => wrapper.removeChild(bubble), 500);
 }
 
 window.onmousemove = e => animateBubble(e.clientX);
